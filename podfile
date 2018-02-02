@@ -1,0 +1,9 @@
+platform :ios, '8.0' #版本号
+target 'BaiSiBuDeJie' do #工程名
+pod 'AFNetworking' #导入库名
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod 'JSONKit'
+pod 'MJRefresh'
+pod 'Masonry'
+end
