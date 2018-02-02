@@ -16,10 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self createView];
     self.view.backgroundColor=[CIColor blueColor];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)createView{
+    UIView *view=[[UIView alloc]init];
+    view.frame=CGRectMake(0, 0, 100, 200);
+    view.backgroundColor=[UIColor yellowColor];
+    [self.view addSubview:view];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
